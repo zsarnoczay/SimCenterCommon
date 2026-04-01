@@ -73,6 +73,7 @@ function(simcenter_add_qgis target)
     "${QGIS_SOURCE_DIR}/build/src/ui"
     "${QGIS_SOURCE_DIR}/build"
     "${QGIS_SOURCE_DIR}/build/vcpkg_installed/arm64-osx/include"
+    "${QGIS_SOURCE_DIR}/build/vcpkg_installed/x64-windows/include"
   )
 
   set(SOURCES
