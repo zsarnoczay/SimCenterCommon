@@ -10,7 +10,7 @@ function(simcenter_add_randomvariables target)
 
   target_include_directories(${target} PRIVATE
     "${dir}"
-    "${dir}/include"
+    "${dir}/include/eigen5.0.1"
     "${dir}/../Common"
   )
 
